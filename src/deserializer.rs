@@ -1,4 +1,3 @@
-use std::collections::VecDeque;
 use std::io::Error as IoError;
 use std::io::Read;
 use std::result::Result as StdResult;
