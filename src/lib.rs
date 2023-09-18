@@ -1,10 +1,10 @@
-mod deserializer;
-use deserializer::{Value, from_bytes, from_string, from_stream};
+pub mod deserializer;
 
 // TODO: make integration tests
 #[cfg(test)]
 mod tests {
     use super::*;
+    use deserializer::*;
 
     #[test]
     fn parse_array() {
